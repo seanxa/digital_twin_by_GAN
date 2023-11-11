@@ -4,8 +4,10 @@
 
 from keras.layers import Input, Dense, Reshape, Flatten, Dropout, RepeatVector, multiply, Embedding
 from keras.layers import BatchNormalization, Activation, ZeroPadding2D, ZeroPadding1D
-from keras.layers.advanced_activations import LeakyReLU
-from keras.layers.convolutional import UpSampling2D, Conv2D, UpSampling1D, Conv1D
+#from keras.layers.advanced_activations import LeakyReLU
+from keras.layers import LeakyReLU
+#from keras.layers.convolutional import UpSampling2D, Conv2D, UpSampling1D, Conv1D
+from keras.layers import UpSampling2D, Conv2D, UpSampling1D, Conv1D
 from keras.models import Sequential, Model
 from keras.optimizers import Adam, SGD
 from keras_contrib.layers import InstanceNormalization
